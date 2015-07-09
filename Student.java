@@ -170,7 +170,7 @@ public abstract class Student {
 
 		System.out.print("\n");
 		//Call isGraduateEligible method
-		data =  data +"\nCan Graduate? " + isGraduateEligible() + " totalpassedcourse:"+totalpassedcourse+" totalpassedcredit:"+totalpassedcredit;
+		data =  data +"\nCan Graduate? " + isGraduateEligible() + "\tTotal Passed Course:"+totalpassedcourse+"\tTotal Passed Credit:"+totalpassedcredit;
 		return (data);
 
 	}

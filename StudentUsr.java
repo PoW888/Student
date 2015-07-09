@@ -9,9 +9,9 @@ public class StudentUsr {
 	public static void main(String[] args) {
 
 		// Generate Random Students and Courses using first Student constructor
-		int maxStudentObj = randInt(2, 2); // Set max number of student to
+		int maxStudentObj = randInt(2, 6); // Set max number of student to
 											// generate
-		int randCourseGenerated = randInt(30, 30); // Sets max number of courses
+		int randCourseGenerated = randInt(40, 50); // Sets max number of courses
 													// to add
 		int maxHighSchoolStudent = maxStudentObj / 2;
 		int maxCollegeStudent = maxStudentObj - maxHighSchoolStudent;
